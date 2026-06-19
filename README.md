@@ -59,7 +59,7 @@ I enjoy transforming ideas into practical solutions through experimentation, res
 - Git
 - GitHub
 - VS Code
-- Postman
+
 
 ---
 
