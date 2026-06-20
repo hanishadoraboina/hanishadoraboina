@@ -36,12 +36,10 @@ I enjoy transforming ideas into practical solutions through experimentation, res
 - Java
 - JavaScript
 - SQL
-- C++
+
 
 ### AI & Machine Learning
 - Scikit-Learn
-- XGBoost
-- Random Forest
 - SHAP
 - Feature Engineering
 - Model Evaluation
