@@ -1,0 +1,52 @@
+<svg width="640" height="300" viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code','Cascadia Code',Consolas,monospace" role="img" aria-label="buildDreams code snippet">
+  <defs>
+    <linearGradient id="editorBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#150A28"/>
+      <stop offset="100%" stop-color="#07040F"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes pulseDot { 0%,100% { opacity:0.4; transform:scale(0.85);} 50% { opacity:1; transform:scale(1.15);} }
+    .pulseDot { animation: pulseDot 1.8s ease-in-out infinite; transform-origin:center; }
+  </style>
+
+  <rect width="640" height="300" rx="14" fill="url(#editorBg)" stroke="#3B2A55" stroke-width="1"/>
+
+  <rect width="640" height="34" rx="14" fill="#0F081C"/>
+  <rect y="20" width="640" height="14" fill="#0F081C"/>
+  <circle cx="22" cy="17" r="6" fill="#FF5F57"/>
+  <circle cx="44" cy="17" r="6" fill="#FEBC2E"/>
+  <circle cx="66" cy="17" r="6" fill="#28C840"/>
+  <text x="320" y="21" text-anchor="middle" font-size="12" fill="#8B93C4">hanisha-os &#183; buildDreams.js</text>
+  <circle cx="600" cy="17" r="4" fill="#34D399" class="pulseDot"/>
+
+  <rect x="0" y="34" width="40" height="266" fill="#0C0716"/>
+  <g fill="#5A4A72" font-size="13">
+    <text x="26" y="66" text-anchor="end">1</text>
+    <text x="26" y="90" text-anchor="end">2</text>
+    <text x="26" y="114" text-anchor="end">3</text>
+    <text x="26" y="138" text-anchor="end">4</text>
+    <text x="26" y="162" text-anchor="end">5</text>
+    <text x="26" y="186" text-anchor="end">6</text>
+    <text x="26" y="210" text-anchor="end">7</text>
+    <text x="26" y="234" text-anchor="end">8</text>
+  </g>
+
+  <g font-size="14">
+    <text x="52" y="66"><tspan fill="#FF4D9D">const</tspan><tspan fill="#F3E8FF"> buildDreams </tspan><tspan fill="#22D3EE">=</tspan><tspan fill="#F3E8FF"> () </tspan><tspan fill="#22D3EE">=&gt;</tspan><tspan fill="#F3E8FF"> {</tspan></text>
+    <text x="72" y="90"><tspan fill="#A855F7">learn</tspan><tspan fill="#F3E8FF">();</tspan></text>
+    <text x="72" y="114"><tspan fill="#A855F7">build</tspan><tspan fill="#F3E8FF">();</tspan></text>
+    <text x="72" y="138"><tspan fill="#A855F7">improve</tspan><tspan fill="#F3E8FF">();</tspan></text>
+    <text x="72" y="162"><tspan fill="#A855F7">deploy</tspan><tspan fill="#F3E8FF">();</tspan></text>
+    <text x="72" y="186"><tspan fill="#A855F7">repeat</tspan><tspan fill="#F3E8FF">();</tspan></text>
+    <text x="52" y="210" fill="#F3E8FF">}</text>
+    <text x="52" y="234"><tspan fill="#FF8FC6">buildDreams</tspan><tspan fill="#F3E8FF">();</tspan></text>
+  </g>
+
+  <rect x="128" y="220" width="8" height="16" fill="#22D3EE">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect width="640" height="300" rx="14" fill="none" stroke="#A855F7" stroke-opacity="0.15" stroke-width="2"/>
+</svg>

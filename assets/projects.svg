@@ -1,0 +1,135 @@
+<svg width="1160" height="634" viewBox="0 0 1160 634" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="hanisha's projects">
+<defs>
+<linearGradient id="bgP" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#0F081C"/><stop offset="100%" stop-color="#07040F"/>
+</linearGradient>
+<linearGradient id="edgeP" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" stop-color="#FF4D9D"/><stop offset="50%" stop-color="#A855F7"/><stop offset="100%" stop-color="#22D3EE"/>
+</linearGradient>
+<linearGradient id="cardG" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#150A28"/><stop offset="100%" stop-color="#0C0716"/>
+</linearGradient>
+<linearGradient id="ringG" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#FF4D9D"/><stop offset="100%" stop-color="#22D3EE"/>
+</linearGradient>
+</defs>
+<style>
+  text{font-family:'Segoe UI',Arial,sans-serif;}
+  .mono{font-family:'Cascadia Code','Fira Code',Consolas,monospace;}
+  @keyframes pulseDot{0%,100%{opacity:.4;transform:scale(.85);}50%{opacity:1;transform:scale(1.15);}}
+  .pulseDot{animation:pulseDot 1.8s ease-in-out infinite;transform-origin:center;}
+  @keyframes ringIn{from{stroke-dashoffset:220;}to{stroke-dashoffset:var(--off);}}
+</style>
+<rect x="1" y="1" width="1158" height="632" rx="18" fill="url(#bgP)" stroke="url(#edgeP)" stroke-width="1.2"/>
+<rect x="1" y="1" width="1158" height="34" rx="18" fill="#0F081C"/>
+<rect x="1" y="20" width="1158" height="14" fill="#0F081C"/>
+<circle cx="24" cy="18" r="6" fill="#FF5F56"/><circle cx="44" cy="18" r="6" fill="#FEBC2E"/><circle cx="64" cy="18" r="6" fill="#27C93F"/>
+<text x="580.0" y="23" text-anchor="middle" font-size="12" class="mono" fill="#8B93C4">hanisha&#39;s projects</text>
+<circle cx="1120" cy="18" r="4" fill="#34D399" class="pulseDot"/>
+<g transform="translate(20.0,56.0)">
+<rect width="550.0" height="264" rx="14" fill="url(#cardG)" stroke="#3B2065" stroke-width="1"/>
+<text x="26" y="34" font-size="18">📜</text>
+<text x="52" y="32" font-size="15.5" font-weight="700" fill="#F8FAFC">Indic Palm Leaf Manuscript Benchmarking</text>
+<text x="52" y="52" font-size="11" class="mono" fill="#8B93C4">IIT Tirupati</text>
+<circle cx="494.0" cy="56" r="34" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="6"/>
+<circle cx="494.0" cy="56" r="34" fill="none" stroke="url(#ringG)" stroke-width="6" stroke-linecap="round" stroke-dasharray="213.6" stroke-dashoffset="30" transform="rotate(-90 494.0 56)"/>
+<text x="494.0" y="61" text-anchor="middle" font-size="13.5" font-weight="700" class="mono" fill="#F8FAFC">78.18%</text>
+<text x="494.0" y="104" text-anchor="middle" font-size="8" letter-spacing="0.5" class="mono" fill="#6B7396">OCR ACCURACY</text>
+<text x="494.0" y="116" text-anchor="middle" font-size="8" class="mono" fill="#6B7396">0.2202 CER</text>
+<text x="38" y="80" font-size="12" fill="#22D3EE">&#9656;</text>
+<text x="52" y="80" font-size="11.5" fill="#B8C2E0">OCR benchmarking framework for historical Indic manuscripts —</text>
+<text x="52" y="96" font-size="11.5" fill="#B8C2E0">Python, PaddleOCR PP-OCRv5, OpenCV, NumPy</text>
+<text x="38" y="116" font-size="12" fill="#22D3EE">&#9656;</text>
+<text x="52" y="116" font-size="11.5" fill="#B8C2E0">Image preprocessing, perspective correction &amp; transliteration</text>
+<text x="52" y="132" font-size="11.5" fill="#B8C2E0">pipeline</text>
+<text x="38" y="152" font-size="12" fill="#22D3EE">&#9656;</text>
+<text x="52" y="152" font-size="11.5" fill="#B8C2E0">Benchmarked via CER, WER, Character Accuracy &amp; Confusion Matrix —</text>
+<text x="52" y="168" font-size="11.5" fill="#B8C2E0">automated CSV/JSON reports</text>
+<rect x="26.0" y="227" width="59.6" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="55.8" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">Python</text>
+<rect x="92.6" y="227" width="138.8" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="162.0" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">PaddleOCR PP-OCRv5</text>
+<rect x="238.4" y="227" width="59.6" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="268.2" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">OpenCV</text>
+<rect x="305.0" y="227" width="53.0" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="331.5" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">NumPy</text>
+<rect x="365.0" y="227" width="39.8" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="384.9" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">CER</text>
+<rect x="411.8" y="227" width="39.8" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="431.7" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">WER</text>
+</g>
+<g transform="translate(590.0,56.0)">
+<rect width="550.0" height="264" rx="14" fill="url(#cardG)" stroke="#3B2065" stroke-width="1"/>
+<text x="26" y="34" font-size="18">🔍</text>
+<text x="52" y="32" font-size="15.5" font-weight="700" fill="#F8FAFC">LoanXAI — Explainable AI for Loans</text>
+<circle cx="494.0" cy="56" r="34" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="6"/>
+<circle cx="494.0" cy="56" r="34" fill="none" stroke="url(#ringG)" stroke-width="6" stroke-linecap="round" stroke-dasharray="213.6" stroke-dashoffset="30" transform="rotate(-90 494.0 56)"/>
+<text x="494.0" y="61" text-anchor="middle" font-size="13.5" font-weight="700" class="mono" fill="#F8FAFC">97.78%</text>
+<text x="494.0" y="104" text-anchor="middle" font-size="8" letter-spacing="0.5" class="mono" fill="#6B7396">MODEL ACCURACY</text>
+<text x="38" y="66" font-size="12" fill="#22D3EE">&#9656;</text>
+<text x="52" y="66" font-size="11.5" fill="#B8C2E0">Explainable AI loan-approval system — Python, Flask, Scikit-learn,</text>
+<text x="52" y="82" font-size="11.5" fill="#B8C2E0">Random Forest</text>
+<text x="38" y="102" font-size="12" fill="#22D3EE">&#9656;</text>
+<text x="52" y="102" font-size="11.5" fill="#B8C2E0">Interactive web interface for real-time loan predictions</text>
+<text x="38" y="122" font-size="12" fill="#22D3EE">&#9656;</text>
+<text x="52" y="122" font-size="11.5" fill="#B8C2E0">SHAP-based feature importance, prediction confidence &amp; transparent</text>
+<text x="52" y="138" font-size="11.5" fill="#B8C2E0">decision insights</text>
+<rect x="26.0" y="227" width="59.6" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="55.8" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">Python</text>
+<rect x="92.6" y="227" width="53.0" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="119.1" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">Flask</text>
+<rect x="152.6" y="227" width="99.2" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="202.2" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">Scikit-learn</text>
+<rect x="258.8" y="227" width="105.8" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="311.7" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">Random Forest</text>
+<rect x="371.6" y="227" width="46.4" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="394.8" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">SHAP</text>
+</g>
+<g transform="translate(20.0,340.0)">
+<rect width="550.0" height="264" rx="14" fill="url(#cardG)" stroke="#3B2065" stroke-width="1"/>
+<text x="26" y="34" font-size="18">📋</text>
+<text x="52" y="32" font-size="15.5" font-weight="700" fill="#F8FAFC">Project Management Platform</text>
+<text x="52" y="52" font-size="11" class="mono" fill="#8B93C4">Trello-style Kanban</text>
+<rect x="448.6" y="18" width="79.4" height="22" rx="11" fill="#1E0F38" stroke="url(#edgeP)" stroke-width="1"/>
+<text x="488.3" y="33" text-anchor="middle" font-size="9.5" letter-spacing="0.5" class="mono" fill="#D8C7F0">REAL-TIME</text>
+<text x="38" y="80" font-size="12" fill="#22D3EE">&#9656;</text>
+<text x="52" y="80" font-size="11.5" fill="#B8C2E0">Full-stack platform — React.js, Flask, MySQL, JWT auth, role-based access,</text>
+<text x="52" y="96" font-size="11.5" fill="#B8C2E0">collaborative workspaces</text>
+<text x="38" y="116" font-size="12" fill="#22D3EE">&#9656;</text>
+<text x="52" y="116" font-size="11.5" fill="#B8C2E0">Real-time task management via WebSockets with drag-and-drop Kanban boards</text>
+<text x="38" y="136" font-size="12" fill="#22D3EE">&#9656;</text>
+<text x="52" y="136" font-size="11.5" fill="#B8C2E0">REST APIs, analytics dashboard, notifications &amp; team collaboration tools</text>
+<rect x="26.0" y="227" width="72.8" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="62.4" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">React.js</text>
+<rect x="105.8" y="227" width="53.0" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="132.3" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">Flask</text>
+<rect x="165.8" y="227" width="53.0" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="192.3" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">MySQL</text>
+<rect x="225.8" y="227" width="39.8" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="245.7" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">JWT</text>
+<rect x="272.6" y="227" width="86.0" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="315.6" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">WebSockets</text>
+</g>
+<g transform="translate(590.0,340.0)">
+<rect width="550.0" height="264" rx="14" fill="url(#cardG)" stroke="#3B2065" stroke-width="1"/>
+<text x="26" y="34" font-size="18">🤖</text>
+<text x="52" y="32" font-size="15.5" font-weight="700" fill="#F8FAFC">TalentSpark — AI Recruitment Platform</text>
+<rect x="428.8" y="18" width="99.2" height="22" rx="11" fill="#1E0F38" stroke="url(#edgeP)" stroke-width="1"/>
+<text x="478.4" y="33" text-anchor="middle" font-size="9.5" letter-spacing="0.5" class="mono" fill="#D8C7F0">AI-AUTOMATED</text>
+<text x="38" y="66" font-size="12" fill="#22D3EE">&#9656;</text>
+<text x="52" y="66" font-size="11.5" fill="#B8C2E0">AI recruitment platform — Node.js, Telegraf, Groq API, PDFKit</text>
+<text x="38" y="86" font-size="12" fill="#22D3EE">&#9656;</text>
+<text x="52" y="86" font-size="11.5" fill="#B8C2E0">Adaptive questioning automates HR &amp; technical interviews</text>
+<text x="38" y="106" font-size="12" fill="#22D3EE">&#9656;</text>
+<text x="52" y="106" font-size="11.5" fill="#B8C2E0">AI-based candidate evaluation, scoring, structured feedback &amp; PDF report</text>
+<text x="52" y="122" font-size="11.5" fill="#B8C2E0">generation</text>
+<rect x="26.0" y="227" width="66.2" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="59.1" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">Node.js</text>
+<rect x="99.2" y="227" width="72.8" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="135.6" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">Telegraf</text>
+<rect x="179.0" y="227" width="72.8" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="215.4" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">Groq API</text>
+<rect x="258.8" y="227" width="59.6" height="22" rx="11" fill="#1E0F38" stroke="#7C3AED" stroke-opacity="0.6"/>
+<text x="288.6" y="242" text-anchor="middle" font-size="10" class="mono" fill="#D8C7F0">PDFKit</text>
+</g>
+</svg>

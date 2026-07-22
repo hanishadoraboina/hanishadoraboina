@@ -1,0 +1,48 @@
+<svg width="1160" height="230" viewBox="0 0 1160 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="boot sequence about me">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#0F081C"/>
+  <stop offset="100%" stop-color="#07040F"/>
+</linearGradient>
+<linearGradient id="edge" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" stop-color="#FF4D9D"/>
+  <stop offset="50%" stop-color="#A855F7"/>
+  <stop offset="100%" stop-color="#22D3EE"/>
+</linearGradient>
+</defs>
+<style>
+  text{font-family:'Segoe UI',Arial,sans-serif;}
+  .mono{font-family:'Cascadia Code','Fira Code',Consolas,monospace;}
+  @keyframes blink{0%,49%{opacity:1;}50%,100%{opacity:0;}}
+  .cursor{animation:blink 1s step-end infinite;}
+  @keyframes pulseDot{0%,100%{opacity:.4;transform:scale(.85);}50%{opacity:1;transform:scale(1.15);}}
+  .pulseDot{animation:pulseDot 1.8s ease-in-out infinite;transform-origin:center;}
+</style>
+
+<rect x="1" y="1" width="1158" height="228" rx="18" fill="url(#bg)" stroke="url(#edge)" stroke-width="1.4"/>
+<rect x="1" y="1" width="1158" height="34" rx="18" fill="#0F081C"/>
+<rect x="1" y="18" width="1158" height="17" fill="#0F081C"/>
+<circle cx="24" cy="18" r="6" fill="#FF5F56"/>
+<circle cx="44" cy="18" r="6" fill="#FEBC2E"/>
+<circle cx="64" cy="18" r="6" fill="#27C93F"/>
+<text x="580" y="23" text-anchor="middle" font-size="12" class="mono" fill="#8B93C4">hanisha-os &#183; boot.sequence</text>
+<circle cx="1120" cy="18" r="4" fill="#34D399" class="pulseDot"/>
+
+<g class="mono" font-size="14.5">
+  <text x="40" y="76"><tspan fill="#22D3EE" font-weight="700">[OK]</tspan><tspan fill="#D8DEEF"> mounting     </tspan><tspan fill="#F8FAFC">AI Engineering @ MITS</tspan></text>
+  <text x="40" y="106"><tspan fill="#22D3EE" font-weight="700">[OK]</tspan><tspan fill="#D8DEEF"> initializing </tspan><tspan fill="#F8FAFC">Python full-stack developer</tspan></text>
+  <text x="40" y="136"><tspan fill="#22D3EE" font-weight="700">[OK]</tspan><tspan fill="#D8DEEF"> loading      </tspan><tspan fill="#F8FAFC">React + FastAPI modules</tspan></text>
+  <text x="40" y="166"><tspan fill="#22D3EE" font-weight="700">[OK]</tspan><tspan fill="#D8DEEF"> compiling    </tspan><tspan fill="#F8FAFC">real-world projects, not tutorials</tspan></text>
+  <text x="40" y="196"><tspan fill="#FF4D9D" font-weight="700">[READY]</tspan><tspan fill="#D8DEEF"> curiosity.module </tspan><tspan fill="#F8FAFC">&#8594; always on</tspan><tspan class="cursor" fill="#22D3EE">&#9608;</tspan></text>
+</g>
+
+<line x1="700" y1="50" x2="700" y2="210" stroke="#3B2065" stroke-width="1"/>
+<g class="mono" font-size="13" fill="#8B93C4">
+  <text x="730" y="80">deep learning</text>
+  <text x="730" y="106">computer vision</text>
+  <text x="730" y="132">generative ai</text>
+  <text x="730" y="158">explainable ai (shap / lime)</text>
+</g>
+<text x="730" y="196" font-size="14" class="mono" fill="url(#edge)" font-weight="700">"clean code &gt; clever code"</text>
+
+</svg>
